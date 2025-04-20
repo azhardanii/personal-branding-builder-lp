@@ -46,7 +46,7 @@ export default function Home() {
       <section className="w-full flex justify-center px-4 py-10 bg-white text-center">
         <div className="w-full max-w-sm">
           {/* Heading */}
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">
             Apa Itu <br /> Personal Branding Builder?
           </h2>
 
@@ -67,6 +67,51 @@ export default function Home() {
             />
           </div>
         </div>
+      </section>
+
+      <section className="w-full px-4 pb-10 text-center">
+        {/* Title */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          Welcome to Personal Branding Builder
+        </h2>
+
+        {/* Video */}
+        <div className="aspect-video w-full max-w-md mx-auto mb-6">
+          <iframe
+            className="w-full h-full rounded-xl"
+            src="https://www.youtube.com/embed/NBh1t1gGID0"
+            title="Welcome to Personal Branding Builder"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        {/* Warning Text */}
+        <div className="text-[#e5212b] space-y-1 mb-8">
+          <p className="text-sm font-semibold">
+            ‼️ TOOLS INI GA BOLEH DIPAKE SEMBARANG ORANG ‼️
+          </p>
+          <p className="text-xl font-bold">CUMA BUAT 10 ORANG</p>
+          <p className="text-base font-medium">
+            TERCEPAT YANG BISA DAPETIN AKSESNYA
+          </p>
+        </div>
+
+        {/* CTA Button */}
+        <div className="relative inline-flex items-center justify-center group">
+  <!-- Orbit -->
+  <div className="absolute w-[134px] h-[53px] rounded-full overflow-visible">
+    <div className="w-full h-full rounded-full animate-spin-slow bg-[conic-gradient(#8c8cf4_0%,transparent_15.5%,transparent_87%,#8c8cf4_98%)]"></div>
+  </div>
+  <button
+    className="relative z-10 px-6 py-3 rounded-full border-2 border-[#8c8cf4] text-white font-semibold"
+    style="background: linear-gradient(rgb(72, 72, 72), rgb(26, 26, 26));"
+  >
+    Daftar Sekarang →
+  </button>
+</div>
+
       </section>
     </main>
   );
