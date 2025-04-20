@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full">
+    <main className="w-full">
       <section className="w-full flex justify-center px-4 py-10 bg-deep-gradient min-h-screen md:min-h-fit">
         <div className="w-full max-w-sm text-center text-white">
           {/* Logo */}
@@ -43,9 +43,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section berikutnya (tanpa gradient) */}
-      <section className="w-full py-20">
-        <div className="text-center">Ini section kedua tanpa gradient 👋</div>
+      <section className="w-full flex justify-center px-4 py-10 bg-white text-center">
+        <div className="w-full max-w-sm">
+          {/* Heading */}
+          <h2 className="text-2xl font-bold text-gray-900 mb-3">
+            Apa Itu <br /> Personal Branding Builder?
+          </h2>
+
+          {/* Subheading */}
+          <p className="text-base font-medium text-gray-700 mb-6">
+            Tools yang bantu kamu personal branding gak pake ribet, instan, 5
+            menit langsung siap.
+          </p>
+
+          {/* Gambar Produk / Service */}
+          <div>
+            <Image
+              src="/service.png"
+              alt="Preview Personal Branding Builder"
+              width={600}
+              height={200}
+              className="mx-auto drop-shadow-lg"
+            />
+          </div>
+        </div>
       </section>
     </main>
   );
