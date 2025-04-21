@@ -94,7 +94,7 @@ export default function Home() {
           </p>
           <p className="text-xl font-bold">CUMA BUAT 10 ORANG</p>
           <p className="text-base font-medium">
-            TERCEPAT YANG BISA DAPETIN AKSESNYA
+            TERNIAT YANG BISA DAPETIN AKSESNYA
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="glow-button">Daftar Sekarang →</button>
+            <button className="glow-button">▶▶ AKSES SEKARANG ◀◀</button>
           </a>
         </div>
       </section>
