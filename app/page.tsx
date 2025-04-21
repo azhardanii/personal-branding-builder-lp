@@ -70,46 +70,48 @@ export default function Home() {
       </section>
 
       <section className="w-full px-4 pb-10 text-center">
-        {/* Title */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          Welcome to Personal Branding Builder
-        </h2>
+        <div className="w-full mx-auto max-w-sm">
+          {/* Title */}
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Welcome to Personal Branding Builder
+          </h2>
 
-        {/* Video */}
-        <div className="aspect-video w-full max-w-md mx-auto mb-6">
-          <iframe
-            className="w-full h-full rounded-xl"
-            src="https://www.youtube.com/embed/NBh1t1gGID0"
-            title="Welcome to Personal Branding Builder"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+          {/* Video */}
+          <div className="aspect-video w-full max-w-md mx-auto mb-6">
+            <iframe
+              className="w-full h-full rounded-xl"
+              src="https://www.youtube.com/embed/NBh1t1gGID0"
+              title="Welcome to Personal Branding Builder"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
 
-        {/* Warning Text */}
-        <div className="text-[#e5212b] space-y-1 mb-8">
-          <p className="text-sm font-semibold">
-            ‼️ TOOLS INI GA BOLEH DIPAKE SEMBARANG ORANG ‼️
-          </p>
-          <p className="text-xl font-bold">CUMA BUAT 10 ORANG TERNIAT</p>
-          <p className="text-lg font-medium">YANG BISA DAPETIN AKSESNYA</p>
-        </div>
+          {/* Warning Text */}
+          <div className="text-[#e5212b] space-y-1 mb-8">
+            <p className="text-sm font-semibold">
+              ‼️ TOOLS INI GA BOLEH DIPAKE SEMBARANG ORANG ‼️
+            </p>
+            <p className="text-xl font-bold">CUMA BUAT 10 ORANG TERNIAT</p>
+            <p className="text-lg font-medium">YANG BISA DAPETIN AKSESNYA</p>
+          </div>
 
-        {/* CTA Button */}
-        <div className="glow-wrapper">
-          <a
-            href="https://tribelio.page/site/checkout/masterclass5"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="glow-button">▶▶ AKSES SEKARANG ◀◀</button>
-          </a>
+          {/* CTA Button */}
+          <div className="glow-wrapper">
+            <a
+              href="https://tribelio.page/site/checkout/masterclass5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="glow-button">▶▶ AKSES SEKARANG ◀◀</button>
+            </a>
+          </div>
         </div>
       </section>
 
       <section className="w-full flex justify-center px-4 py-10 bg-reverse-gradient min-h-screen md:min-h-fit">
-        <div className="text-center py-24">
+        <div className="max-w-sm text-center py-24">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
             All in One
           </h2>
@@ -138,7 +140,7 @@ export default function Home() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white/40 backdrop-blur-md p-6 rounded-xl"
+                className="bg-white/30 backdrop-blur-md py-3 px-5 rounded-xl"
               >
                 <h3 className="text-lg md:text-xl font-semibold text-white">
                   {item.title}
@@ -151,11 +153,11 @@ export default function Home() {
       </section>
 
       <section className="w-full px-4 py-5 md:py-10 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-lg md:text-3xl font-bold mb-0 md:mb-1">
+        <div className="max-w-sm mx-auto">
+          <h2 className="text-xl font-bold mb-0">
             Tools Personal Branding Builder
           </h2>
-          <p className="text-md md:text-2xl font-bold mb-4 md:mb-6">
+          <p className="text-lg font-bold mb-4">
             Cocok Buat Kamu yang Saat Ini...
           </p>
 
@@ -167,14 +169,14 @@ export default function Home() {
             className="mx-auto mb-5 md:mb-10"
           />
 
-          <div className="text-[#0051bd] text-xs md:text-xl font-medium mb-6 leading-relaxed">
+          <div className="text-[#0051bd] text-sm md:text-xl font-medium mb-6 leading-relaxed">
             Kalau kamu{" "}
             <span className="underline font-bold underline-offset-4">
               RELATE
             </span>{" "}
             sama salah satu poin di atas…
             <br />
-            <span className="text-[14px] md:text-xl">
+            <span className="text-base md:text-xl">
               {" "}
               Jangan tunda lagi, waktunya kamu pakai <br />
               <span className="font-bold">PERSONAL BRANDING BUILDER</span>{" "}
