@@ -59,7 +59,7 @@ export default function Home() {
           {/* Gambar Produk / Service */}
           <div>
             <Image
-              src="/service.png"
+              src="/help-u.png"
               alt="Preview Personal Branding Builder"
               width={600}
               height={200}
@@ -69,11 +69,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full px-4 pb-10 text-center">
+      <div className="w-full py-6 text-center">
+        <div className="max-w-sm mx-auto">
+          <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
+        </div>
+      </div>
+
+      <section className="w-full px-4 pt-3 pb-10 text-center">
         <div className="w-full mx-auto max-w-sm">
           {/* Title */}
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Welcome to Personal Branding Builder
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
+            Welcome to <br /> PERSONAL BRANDING BUILDER
           </h2>
 
           {/* Video */}
@@ -98,7 +104,7 @@ export default function Home() {
           </div>
 
           {/* CTA Button */}
-          <div className="glow-wrapper">
+          <div className="glow-wrapper mb-8">
             <a
               href="https://tribelio.page/site/checkout/masterclass5"
               target="_blank"
@@ -110,7 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex justify-center px-4 py-10 bg-reverse-gradient min-h-screen md:min-h-fit">
+      <section className="w-full flex justify-center px-4 py-10 mb-2 bg-reverse-gradient min-h-screen md:min-h-fit">
         <div className="max-w-sm text-center py-24">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
             All in One
@@ -196,7 +202,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="w-full py-3 text-center">
+      <div className="w-full mt-3 py-3 text-center">
         <div className="max-w-sm mx-auto">
           <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
         </div>
@@ -219,7 +225,10 @@ export default function Home() {
                 allowFullScreen
               ></iframe>
             </div>
-            <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
+            <div
+              className="w-full md:w-1/2 mb-6"
+              style={{ aspectRatio: "9 / 16" }}
+            >
               <iframe
                 className="w-full h-full rounded-xl"
                 src="https://www.youtube.com/embed/zq-_nBXBXg4"
@@ -228,6 +237,15 @@ export default function Home() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
+            </div>
+            <div>
+              <Image
+                src="/testi-pbb.png"
+                alt="Testimoni Pengguna Personal Branding Builder"
+                width={600}
+                height={200}
+                className="mx-auto drop-shadow-lg"
+              />
             </div>
           </div>
         </div>
