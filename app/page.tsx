@@ -75,7 +75,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="w-full px-4 pt-3 pb-10 text-center">
+      <section className="w-full px-4 pt-5 pb-10 text-center">
         <div className="w-full mx-auto max-w-sm">
           {/* Title */}
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
@@ -96,7 +96,7 @@ export default function Home() {
 
           {/* Warning Text */}
           <div className="text-[#e5212b] space-y-1 mb-8">
-            <p className="text-sm font-semibold">
+            <p className="text-[13px] font-semibold">
               ‼️ TOOLS INI GA BOLEH DIPAKE SEMBARANG ORANG ‼️
             </p>
             <p className="text-xl font-bold">CUMA BUAT 10 ORANG TERNIAT</p>
@@ -240,7 +240,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                src="/testi-pbb.png"
+                src="/testi-pbb.webp"
                 alt="Testimoni Pengguna Personal Branding Builder"
                 width={600}
                 height={200}
