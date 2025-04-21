@@ -99,19 +99,15 @@ export default function Home() {
         </div>
 
         {/* CTA Button */}
-        <div className="relative inline-flex items-center justify-center group">
-  <!-- Orbit -->
-  <div className="absolute w-[134px] h-[53px] rounded-full overflow-visible">
-    <div className="w-full h-full rounded-full animate-spin-slow bg-[conic-gradient(#8c8cf4_0%,transparent_15.5%,transparent_87%,#8c8cf4_98%)]"></div>
-  </div>
-  <button
-    className="relative z-10 px-6 py-3 rounded-full border-2 border-[#8c8cf4] text-white font-semibold"
-    style="background: linear-gradient(rgb(72, 72, 72), rgb(26, 26, 26));"
-  >
-    Daftar Sekarang →
-  </button>
-</div>
-
+        <div className="glow-wrapper">
+          <a
+            href="https://tribelio.page/site/checkout/masterclass5"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="glow-button">Daftar Sekarang →</button>
+          </a>
+        </div>
       </section>
     </main>
   );
