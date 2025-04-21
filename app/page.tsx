@@ -92,10 +92,8 @@ export default function Home() {
           <p className="text-sm font-semibold">
             ‼️ TOOLS INI GA BOLEH DIPAKE SEMBARANG ORANG ‼️
           </p>
-          <p className="text-xl font-bold">CUMA BUAT 10 ORANG</p>
-          <p className="text-base font-medium">
-            TERNIAT YANG BISA DAPETIN AKSESNYA
-          </p>
+          <p className="text-xl font-bold">CUMA BUAT 10 ORANG TERNIAT</p>
+          <p className="text-lg font-medium">YANG BISA DAPETIN AKSESNYA</p>
         </div>
 
         {/* CTA Button */}
