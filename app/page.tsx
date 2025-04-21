@@ -34,11 +34,14 @@ export default function Home() {
           </div>
 
           {/* CTA */}
-          <p className="text-base font-medium text-white">
-            Bantu Kamu <br />
-            <span className="font-bold italic uppercase">
-              Bangun Personal Branding Secara Instan!
+          <p className="text-base font-medium text-white ">
+            <span className="text-lg font-bold">Bantu Kamu Bangun</span>
+            <br />
+            <span className="text-lg font-bold italic uppercase">
+              Personal Branding Instan!!
             </span>
+            <br />
+            "Bukan Buat Gaya-gayaan, tapi <br /> Buat Buka Lebih Banyak Peluang"
           </p>
         </div>
       </section>
@@ -46,12 +49,12 @@ export default function Home() {
       <section className="w-full flex justify-center px-4 py-10 bg-white text-center">
         <div className="w-full max-w-sm">
           {/* Heading */}
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+          <h2 className="text-xl font-bold text-[#023274] mb-2 uppercase">
             Apa Itu <br /> Personal Branding Builder?
           </h2>
 
           {/* Subheading */}
-          <p className="text-base font-medium text-gray-700 mb-6">
+          <p className="text-base font-medium text-[#023274] mb-6">
             Tools yang bantu kamu personal branding gak pake ribet, instan, 5
             menit langsung siap.
           </p>
@@ -78,8 +81,9 @@ export default function Home() {
       <section className="w-full px-4 pt-5 pb-10 text-center">
         <div className="w-full mx-auto max-w-sm">
           {/* Title */}
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-6">
-            Welcome to <br /> PERSONAL BRANDING BUILDER
+          <h2 className="text-xl md:text-2xl font-bold text-[#023274] mb-6">
+            <span className="text-3xl uppercase">Welcome to</span> <br />{" "}
+            PERSONAL BRANDING BUILDER
           </h2>
 
           {/* Video */}
@@ -96,7 +100,7 @@ export default function Home() {
 
           {/* Warning Text */}
           <div className="text-[#e5212b] space-y-1 mb-8">
-            <p className="text-[13px] font-semibold">
+            <p className="text-[12px] font-semibold">
               ‼️ TOOLS INI GA BOLEH DIPAKE SEMBARANG ORANG ‼️
             </p>
             <p className="text-xl font-bold">CUMA BUAT 10 ORANG TERNIAT</p>
@@ -160,7 +164,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full px-4 py-5 md:py-10 text-center">
+      <section className="w-full px-4 py-5 md:py-10 text-center text-[#023274]">
         <div className="max-w-sm mx-auto">
           <h2 className="text-xl font-bold mb-0">
             Tools Personal Branding Builder
@@ -177,7 +181,7 @@ export default function Home() {
             className="mx-auto mb-5 md:mb-10"
           />
 
-          <div className="text-[#0051bd] text-sm font-medium mb-6 leading-relaxed">
+          <div className="text-[#023274] text-sm font-medium mb-6 leading-relaxed">
             Kalau kamu{" "}
             <span className="underline font-bold underline-offset-4">
               RELATE
@@ -214,9 +218,9 @@ export default function Home() {
 
       <section className="w-full px-4 py-5 md:py-10 text-center">
         <div className="max-w-sm mx-auto">
-          <h2 className="text-xl font-bold mb-6">
+          <h2 className="text-xl font-bold text-[#023274] mb-6">
             Kata mereka yang sudah pakai <br />
-            <span className="text-[#0051bd]">PERSONAL BRANDING BUILDER</span>
+            PERSONAL BRANDING BUILDER
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
             <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
@@ -249,11 +253,9 @@ export default function Home() {
               className="mx-auto drop-shadow-lg"
             />
           </div>
-          <h2 className="text-lg font-bold mb-3">
+          <h2 className="text-lg font-bold mb-3 text-[#023274]">
             Isi Form FEEDBACK dari para pengguna <br />
-            <span className="text-[#0051bd] text-xl">
-              PERSONAL BRANDING BUILDER
-            </span>
+            PERSONAL BRANDING BUILDER
           </h2>
           <div>
             <Image
