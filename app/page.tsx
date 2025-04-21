@@ -138,7 +138,7 @@ export default function Home() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white/10 backdrop-blur-md p-6 rounded-xl"
+                className="bg-white/40 backdrop-blur-md p-6 rounded-xl"
               >
                 <h3 className="text-lg md:text-xl font-semibold text-white">
                   {item.title}
@@ -146,6 +146,50 @@ export default function Home() {
                 <p className="text-white/80">{item.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full px-4 py-5 md:py-10 text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-lg md:text-3xl font-bold mb-0 md:mb-1">
+            Tools Personal Branding Builder
+          </h2>
+          <p className="text-md md:text-2xl font-bold mb-4 md:mb-6">
+            Cocok Buat Kamu yang Saat Ini...
+          </p>
+
+          <Image
+            src="/why-list.png"
+            alt="Kenapa harus pakai Personal Branding Builder"
+            width={500}
+            height={200}
+            className="mx-auto mb-5 md:mb-10"
+          />
+
+          <div className="text-[#0051bd] text-xs md:text-xl font-medium mb-6 leading-relaxed">
+            Kalau kamu{" "}
+            <span className="underline font-bold underline-offset-4">
+              RELATE
+            </span>{" "}
+            sama salah satu poin di atas…
+            <br />
+            <span className="text-[14px] md:text-xl">
+              {" "}
+              Jangan tunda lagi, waktunya kamu pakai <br />
+              <span className="font-bold">PERSONAL BRANDING BUILDER</span>{" "}
+              sekarang!
+            </span>
+          </div>
+
+          <div className="glow-wrapper">
+            <a
+              href="https://tribelio.page/site/checkout/masterclass5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="glow-button">▶▶ LET'S GOO 🚀 ◀◀</button>
+            </a>
           </div>
         </div>
       </section>
