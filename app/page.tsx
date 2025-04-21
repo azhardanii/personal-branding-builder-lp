@@ -110,7 +110,9 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="glow-button">▶▶ AKSES SEKARANG ◀◀</button>
+              <button className="glow-button text-xl">
+                ▶▶ AKSES SEKARANG ◀◀
+              </button>
             </a>
           </div>
         </div>
@@ -186,7 +188,7 @@ export default function Home() {
               {" "}
               Jangan tunda lagi, waktunya kamu pakai <br />
               <span className="font-bold">PERSONAL BRANDING BUILDER</span>{" "}
-              sekarang!
+              Sekarang!!
             </span>
           </div>
 
@@ -196,7 +198,9 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="glow-button">▶▶ LET'S GOO 🚀 ◀◀</button>
+              <button className="glow-button text-xl">
+                ▶▶ LET'S GOO 🚀 ◀◀
+              </button>
             </a>
           </div>
         </div>
@@ -214,7 +218,7 @@ export default function Home() {
             Kata mereka yang sudah pakai <br />
             <span className="text-[#0051bd]">PERSONAL BRANDING BUILDER</span>
           </h2>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
             <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
               <iframe
                 className="w-full h-full rounded-xl"
@@ -225,10 +229,7 @@ export default function Home() {
                 allowFullScreen
               ></iframe>
             </div>
-            <div
-              className="w-full md:w-1/2 mb-6"
-              style={{ aspectRatio: "9 / 16" }}
-            >
+            <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
               <iframe
                 className="w-full h-full rounded-xl"
                 src="https://www.youtube.com/embed/zq-_nBXBXg4"
@@ -238,39 +239,56 @@ export default function Home() {
                 allowFullScreen
               ></iframe>
             </div>
-            <div>
-              <Image
-                src="/testi-pbb.webp"
-                alt="Testimoni Pengguna Personal Branding Builder"
-                width={600}
-                height={200}
-                className="mx-auto drop-shadow-lg"
-              />
-            </div>
-            <h2 className="text-lg font-bold mb-0">
-              Isi Form FEEDBACK dari para pengguna <br />
-              <span className="text-[#0051bd] text-xl">
-                PERSONAL BRANDING BUILDER
-              </span>
-            </h2>
-            <div>
-              <Image
-                src="/feedback.webp"
-                alt="Feedback Pengguna Personal Branding Builder"
-                width={600}
-                height={200}
-                className="mx-auto"
-              />
-            </div>
+          </div>
+          <div className="mb-8">
+            <Image
+              src="/testi-pbb.webp"
+              alt="Testimoni Pengguna Personal Branding Builder"
+              width={600}
+              height={200}
+              className="mx-auto drop-shadow-lg"
+            />
+          </div>
+          <h2 className="text-lg font-bold mb-3">
+            Isi Form FEEDBACK dari para pengguna <br />
+            <span className="text-[#0051bd] text-xl">
+              PERSONAL BRANDING BUILDER
+            </span>
+          </h2>
+          <div>
+            <Image
+              src="/feedback.webp"
+              alt="Feedback Pengguna Personal Branding Builder"
+              width={600}
+              height={200}
+              className="mx-auto"
+            />
           </div>
         </div>
       </section>
 
-      <div className="w-full mt-3 py-3 text-center">
-        <div className="max-w-sm mx-auto">
-          <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
+      <section className="w-full flex justify-center px-2 py-10 mb-2 bg-co-gradient min-h-screen md:min-h-fit">
+        <div className="max-w-sm text-center py-10">
+          <Image
+            src="/checkout.png"
+            alt="Checkout Personal Branding Builder"
+            width={600}
+            height={200}
+            className="mx-auto mb-10"
+          />
+          <div className="glow-wrapper">
+            <a
+              href="https://tribelio.page/site/checkout/masterclass5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="glow-button text-2xl">
+                ▶▶ CHECKOUT 🔥 ◀◀
+              </button>
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 }
