@@ -110,12 +110,18 @@ export default function Home() {
           {/* CTA Button */}
           <div className="glow-wrapper mb-8">
             <a
-              href="https://tribelio.page/site/checkout/masterclass5"
+              href="https://lynk.id/kadafidevayana/e3RyMwz/checkout"
               target="_blank"
               rel="noreferrer"
             >
               <button className="glow-button text-xl">
-                ▶▶ AKSES SEKARANG ◀◀
+                <span style={{ fontFamily: "Arial, sans-serif" }}>
+                  &#x25B6;&#x25B6;
+                </span>{" "}
+                AKSES SEKARANG{" "}
+                <span style={{ fontFamily: "Arial, sans-serif" }}>
+                  &#x25C0;&#x25C0;
+                </span>
               </button>
             </a>
           </div>
@@ -198,12 +204,18 @@ export default function Home() {
 
           <div className="glow-wrapper">
             <a
-              href="https://tribelio.page/site/checkout/masterclass5"
+              href="https://lynk.id/kadafidevayana/e3RyMwz/checkout"
               target="_blank"
               rel="noreferrer"
             >
               <button className="glow-button text-xl">
-                ▶▶ LET'S GOO 🚀 ◀◀
+                <span style={{ fontFamily: "Arial, sans-serif" }}>
+                  &#x25B6;&#x25B6;
+                </span>{" "}
+                LET'S GOO 🚀{" "}
+                <span style={{ fontFamily: "Arial, sans-serif" }}>
+                  &#x25C0;&#x25C0;
+                </span>
               </button>
             </a>
           </div>
@@ -280,16 +292,26 @@ export default function Home() {
           />
           <div className="glow-wrapper">
             <a
-              href="https://tribelio.page/site/checkout/masterclass5"
+              href="https://lynk.id/kadafidevayana/e3RyMwz/checkout"
               target="_blank"
               rel="noreferrer"
             >
               <button className="glow-button text-2xl">
-                ▶▶ CHECKOUT 🔥 ◀◀
+                <span style={{ fontFamily: "Arial, sans-serif" }}>
+                  &#x25B6;&#x25B6;
+                </span>{" "}
+                CHECKOUT 🔥{" "}
+                <span style={{ fontFamily: "Arial, sans-serif" }}>
+                  &#x25C0;&#x25C0;
+                </span>
               </button>
             </a>
           </div>
         </div>
+      </section>
+
+      <section className="w-full flex justify-center px-2 py-10 mb-2 bg-co-gradient min-h-screen md:min-h-fit">
+        <div className="max-w-sm text-center py-10"></div>
       </section>
     </main>
   );
