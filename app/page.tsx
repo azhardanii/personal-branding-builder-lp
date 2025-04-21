@@ -247,9 +247,30 @@ export default function Home() {
                 className="mx-auto drop-shadow-lg"
               />
             </div>
+            <h2 className="text-lg font-bold mb-0">
+              Isi Form FEEDBACK dari para pengguna <br />
+              <span className="text-[#0051bd] text-xl">
+                PERSONAL BRANDING BUILDER
+              </span>
+            </h2>
+            <div>
+              <Image
+                src="/feedback.webp"
+                alt="Feedback Pengguna Personal Branding Builder"
+                width={600}
+                height={200}
+                className="mx-auto"
+              />
+            </div>
           </div>
         </div>
       </section>
+
+      <div className="w-full mt-3 py-3 text-center">
+        <div className="max-w-sm mx-auto">
+          <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
+        </div>
+      </div>
     </main>
   );
 }
