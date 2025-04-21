@@ -169,14 +169,14 @@ export default function Home() {
             className="mx-auto mb-5 md:mb-10"
           />
 
-          <div className="text-[#0051bd] text-sm md:text-xl font-medium mb-6 leading-relaxed">
+          <div className="text-[#0051bd] text-sm font-medium mb-6 leading-relaxed">
             Kalau kamu{" "}
             <span className="underline font-bold underline-offset-4">
               RELATE
             </span>{" "}
             sama salah satu poin di atas…
             <br />
-            <span className="text-base md:text-xl">
+            <span className="text-base">
               {" "}
               Jangan tunda lagi, waktunya kamu pakai <br />
               <span className="font-bold">PERSONAL BRANDING BUILDER</span>{" "}
