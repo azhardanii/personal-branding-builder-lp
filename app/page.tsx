@@ -195,6 +195,43 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div className="w-full py-3 text-center">
+        <div className="max-w-sm mx-auto">
+          <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
+        </div>
+      </div>
+
+      <section className="w-full px-4 py-5 md:py-10 text-center">
+        <div className="max-w-sm mx-auto">
+          <h2 className="text-xl font-bold mb-6">
+            Kata mereka yang sudah pakai <br />
+            <span className="text-[#0051bd]">PERSONAL BRANDING BUILDER</span>
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+            <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
+              <iframe
+                className="w-full h-full rounded-xl"
+                src="https://www.youtube.com/embed/gJbp9sIQX5M"
+                title="Testimoni 1"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
+              <iframe
+                className="w-full h-full rounded-xl"
+                src="https://www.youtube.com/embed/zq-_nBXBXg4"
+                title="Testimoni 2"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
