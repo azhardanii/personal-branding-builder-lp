@@ -14,6 +14,18 @@
   );
 }
 
+.bg-reverse-gradient {
+  background: linear-gradient(
+    to bottom,
+    #fff 0%,
+    #0051bd 10%,
+    #000 15%,
+    #000 85%,
+    #0051bd 90%,
+    #fff 100%
+  );
+}
+
 .glow-wrapper {
   position: relative;
   display: inline-block;

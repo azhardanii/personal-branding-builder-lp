@@ -107,6 +107,48 @@ export default function Home() {
           </a>
         </div>
       </section>
+
+      <section className="w-full flex justify-center px-4 py-10 bg-reverse-gradient min-h-screen md:min-h-fit">
+        <div className="text-center py-24">
+          <h2 className="text-4xl md:text-5xl font-bold text-white">
+            All in One
+          </h2>
+          <p className="text-xl md:text-2xl mb-8 text-white">
+            Personal Branding Builder
+          </p>
+
+          <div className="space-y-5 text-center">
+            {[
+              {
+                title: "1. Finder Personal Identity",
+                desc: "🔍 Bantu kamu nemuin niche paling cocok",
+              },
+              {
+                title: "2. Personal Detector Intelligence",
+                desc: "🧠 Mengenal diri sendiri, kekuatan, dan peluangmu!",
+              },
+              {
+                title: "3. Smart Pillar Generator",
+                desc: "📌 Bantu bikin strategi & pilar biar konten tambah rame",
+              },
+              {
+                title: "4. Content Factory",
+                desc: "🔥 Unlimited konten 9999+",
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="bg-white/10 backdrop-blur-md p-6 rounded-xl"
+              >
+                <h3 className="text-lg md:text-xl font-semibold text-white">
+                  {item.title}
+                </h3>
+                <p className="text-white/80">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
