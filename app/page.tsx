@@ -180,7 +180,7 @@ export default function Home() {
           </p>
 
           <Image
-            src="/why-list.png"
+            src="/why-list.webp"
             alt="Kenapa harus pakai Personal Branding Builder"
             width={500}
             height={200}
@@ -284,7 +284,7 @@ export default function Home() {
       <section className="w-full flex justify-center px-2 py-10 mb-2 bg-co-gradient min-h-screen md:min-h-fit">
         <div className="max-w-sm text-center py-10">
           <Image
-            src="/checkout.png"
+            src="/checkout.webp"
             alt="Checkout Personal Branding Builder"
             width={600}
             height={200}
@@ -310,9 +310,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex justify-center px-2 py-10 mb-2 bg-co-gradient min-h-screen md:min-h-fit">
-        <div className="max-w-sm text-center py-10"></div>
+      <div className="w-full py-3 text-center">
+        <div className="max-w-sm mx-auto">
+          <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
+        </div>
+      </div>
+
+      <section className="w-full flex justify-center px-2 min-h-screen md:min-h-fit">
+        <div className="max-w-sm text-center py-10">
+          <Image
+            src="/faq-pbb.webp"
+            alt="FAQ Personal Branding Builder"
+            width={600}
+            height={200}
+            className="mx-auto mb-10"
+          />
+        </div>
       </section>
+
+      <div className="w-full text-[#023274] text-center py-6 px-4">
+        <div className="text-xs mx-auto max-w-sm flex justify-center">
+          <p>Copyright &copy; {new Date().getFullYear()}</p>
+          <Image
+            src="/logo-kadev-blue.webp"
+            alt="KADEV Academy"
+            width={110}
+            height={50}
+            className="ml-1 mr-0.5 pt-0.5"
+          />
+          <p>All rights reserved.</p>
+        </div>
+      </div>
     </main>
   );
 }
