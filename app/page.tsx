@@ -40,8 +40,6 @@ export default function Home() {
             <span className="text-lg font-bold italic uppercase">
               Personal Branding Instan!!
             </span>
-            <br />
-            "Bukan Buat Gaya-gayaan, tapi <br /> Buat Buka Lebih Banyak Peluang"
           </p>
         </div>
       </section>
