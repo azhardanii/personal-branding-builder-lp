@@ -8,7 +8,7 @@ export default function Home() {
           {/* Logo */}
           <div className="mb-4">
             <Image
-              src="/kadev-logo.png"
+              src="/pbb-kadev-logo.webp"
               alt="Kadev Academy"
               width={120}
               height={30}
@@ -24,7 +24,7 @@ export default function Home() {
           {/* Gambar Produk */}
           <div className="my-6">
             <Image
-              src="/product-img.png"
+              src="/pbb-img-product.webp"
               alt="Personal Brand Builder"
               width={200}
               height={200}
@@ -186,7 +186,6 @@ export default function Home() {
             height={200}
             className="mx-auto mb-5 md:mb-10"
           />
-
           <div className="text-[#023274] text-sm font-medium mb-6 leading-relaxed">
             Kalau kamu{" "}
             <span className="underline font-bold underline-offset-4">
@@ -196,9 +195,9 @@ export default function Home() {
             <br />
             <span className="text-base">
               {" "}
-              Jangan tunda lagi, waktunya kamu pakai <br />
+              Jangan diem-diem bhae, waktunya kamu pake <br />
               <span className="font-bold">PERSONAL BRANDING BUILDER</span>{" "}
-              Sekarang!!
+              sekarang!!
             </span>
           </div>
 
@@ -258,11 +257,11 @@ export default function Home() {
           </div>
           <div className="mb-8">
             <Image
-              src="/testi-pbb.webp"
+              src="/pbb-testi.webp"
               alt="Testimoni Pengguna Personal Branding Builder"
               width={600}
               height={200}
-              className="mx-auto drop-shadow-lg"
+              className="mx-auto"
             />
           </div>
           <h2 className="text-lg font-bold mb-3 text-[#023274]">
@@ -281,7 +280,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex justify-center px-2 py-10 mb-2 bg-co-gradient min-h-screen md:min-h-fit">
+      <section className="w-full flex justify-center px-2 py-10 bg-co-gradient min-h-screen md:min-h-fit">
         <div className="max-w-sm text-center py-10">
           <Image
             src="/pbb-checkout.webp"
@@ -310,7 +309,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="w-full py-3 text-center">
+      <div className="w-full pb-10 text-center">
         <div className="max-w-sm mx-auto">
           <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
         </div>
