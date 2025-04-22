@@ -60,7 +60,7 @@ export default function Home() {
           {/* Gambar Produk / Service */}
           <div>
             <Image
-              src="/help-u.png"
+              src="/pbb-preview.webp"
               alt="Preview Personal Branding Builder"
               width={600}
               height={200}
@@ -101,8 +101,10 @@ export default function Home() {
             <p className="text-[12px] font-semibold">
               ‼️ TOOLS INI GA BOLEH DIPAKE SEMBARANG ORANG ‼️
             </p>
-            <p className="text-xl font-bold">CUMA BUAT 10 ORANG TERNIAT</p>
-            <p className="text-lg font-medium">YANG BISA DAPETIN AKSESNYA</p>
+            <p className="text-2xl font-bold">CUMA BUAT 100 ORANG</p>
+            <p className="text-base font-medium">
+              TERCEPAT YANG BISA DAPETIN AKSESNYA
+            </p>
           </div>
 
           {/* CTA Button */}
@@ -269,7 +271,7 @@ export default function Home() {
           </h2>
           <div>
             <Image
-              src="/feedback.webp"
+              src="/pbb-feedback.webp"
               alt="Feedback Pengguna Personal Branding Builder"
               width={600}
               height={200}
@@ -282,7 +284,7 @@ export default function Home() {
       <section className="w-full flex justify-center px-2 py-10 mb-2 bg-co-gradient min-h-screen md:min-h-fit">
         <div className="max-w-sm text-center py-10">
           <Image
-            src="/checkout.webp"
+            src="/pbb-checkout.webp"
             alt="Checkout Personal Branding Builder"
             width={600}
             height={200}
@@ -317,7 +319,7 @@ export default function Home() {
       <section className="w-full flex justify-center px-2 min-h-screen md:min-h-fit">
         <div className="max-w-sm text-center py-10">
           <Image
-            src="/faq-pbb.webp"
+            src="/pbb-faq.webp"
             alt="FAQ Personal Branding Builder"
             width={600}
             height={200}
