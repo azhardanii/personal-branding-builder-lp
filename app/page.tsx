@@ -172,7 +172,9 @@ export default function Home() {
             alt="Kenapa harus pakai Personal Branding Builder"
             width={500}
             height={200}
-            className="mx-auto mb                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  />
+            className="mx-auto mb-6"
+            loading="lazy"
+          />
           <p className="text-sm font-medium mb-6 leading-relaxed">
             Kalau kamu{" "}
             <span className="underline font-bold underline-offset-4">
@@ -190,7 +192,7 @@ export default function Home() {
         </div>
       </Section>
 
-      <div className="w-full mt-3 py-3 text-center">
+      <div className="w-full py-3 text-center">
         <div className="max-w-sm mx-auto">
           <hr className="border-0 h-[2px] bg-gradient-to-r from-white/0 via-[#0051bd] via-50% to-white/0 opacity-40" />
         </div>
