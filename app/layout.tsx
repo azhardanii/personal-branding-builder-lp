@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "Personal Branding Builder",
     images: [
       {
-        url: "https://yourdomain.com/og-image.jpg",
+        url: "https://res.cloudinary.com/dpytrn22z/image/upload/v1745401619/banner-pbb_s5oqiz.png",
         width: 1200,
         height: 630,
         alt: "Personal Branding Builder – Toolkit Branding All in One",
@@ -45,9 +45,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Personal Branding Builder",
-    description: "Toolkit simpel & profesional untuk bangun personal brand.",
-    images: ["https://yourdomain.com/og-image.jpg"],
-    creator: "@yourhandle",
+    description:
+      "Toolkit simpel & profesional untuk bangun personal branding lebih efisien.",
+    images: [
+      "https://res.cloudinary.com/dpytrn22z/image/upload/v1745401619/banner-pbb_s5oqiz.png",
+    ],
+    creator: "@kadafidevayana",
   },
 };
 
