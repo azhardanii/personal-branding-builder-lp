@@ -118,14 +118,11 @@ export default function Home() {
             <br /> PERSONAL BRANDING BUILDER
           </h2>
           <div className="aspect-video w-full max-w-md mx-auto mb-6">
-            <iframe
-              className="w-full h-full rounded-xl"
-              src="https://www.youtube.com/embed/NBh1t1gGID0"
-              title="Welcome to Personal Branding Builder"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+            <LazyYoutube
+              videoId="NBh1t1gGID0"
+              title="Video Clip Personal Branding Builder"
+              ratio="16:9"
+            />
           </div>
           <div className="text-[#e5212b] space-y-1 mb-8">
             <p className="text-[12px] font-semibold">

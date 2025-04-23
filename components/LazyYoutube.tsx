@@ -5,17 +5,25 @@ import { useState } from "react";
 type LazyYoutubeProps = {
   videoId: string;
   title: string;
+  ratio?: "16:9" | "9:16"; // default ke 9:16
 };
 
-export default function LazyYoutube({ videoId, title }: LazyYoutubeProps) {
+export default function LazyYoutube({
+  videoId,
+  title,
+  ratio = "9:16",
+}: LazyYoutubeProps) {
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
 
   const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
+  // Konversi rasio jadi padding bottom (aspect ratio hack)
+  const aspectPadding = ratio === "16:9" ? "56.25%" : "177.77%";
+
   return (
     <div
       className="relative w-full h-0 overflow-hidden rounded-xl cursor-pointer"
-      style={{ paddingBottom: "177.77%" }} // Aspect ratio 9:16
+      style={{ paddingBottom: aspectPadding }}
       onClick={() => setIsIframeLoaded(true)}
     >
       {isIframeLoaded ? (
@@ -35,7 +43,6 @@ export default function LazyYoutube({ videoId, title }: LazyYoutubeProps) {
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-            {/* Tombol Play SVG */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="80"
