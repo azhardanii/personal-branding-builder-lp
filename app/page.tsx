@@ -95,11 +95,11 @@ export default function Home() {
             menit langsung siap.
           </p>
           <Image
-            src="/pbb-preview.webp"
+            src="/pbb-value.webp"
             alt="Preview Personal Branding Builder"
             width={600}
             height={200}
-            className="mx-auto drop-shadow-lg"
+            className="mx-auto"
             loading="lazy"
           />
         </div>
