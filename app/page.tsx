@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ReactNode } from "react";
+import LazyYoutube from "@/components/LazyYoutube";
 
 const FEATURES = [
   {
@@ -67,11 +68,11 @@ export default function Home() {
             Tools Personal Branding <br /> Pertama di Indonesia 🇮🇩
           </h1>
           <Image
-            src="/pbb-img-product.webp"
+            src="/pbb-box-product.webp"
             alt="Personal Brand Builder"
-            width={200}
-            height={200}
-            className="mx-auto drop-shadow-xl my-6"
+            width={300}
+            height={300}
+            className="mx-auto drop-shadow-xl my-6 rotate-[15deg]"
             priority
           />
           <p className="text-base font-medium">
@@ -206,24 +207,13 @@ export default function Home() {
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
             <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
-              <iframe
-                className="w-full h-full rounded-xl"
-                src="https://www.youtube.com/embed/gJbp9sIQX5M"
-                title="Testimoni 1"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <LazyYoutube
+                videoId="gJbp9sIQX5M"
+                title="Testimoni Personal Branding Builder dari Danang Giri Sadewa "
+              />
             </div>
             <div className="w-full md:w-1/2" style={{ aspectRatio: "9 / 16" }}>
-              <iframe
-                className="w-full h-full rounded-xl"
-                src="https://www.youtube.com/embed/zq-_nBXBXg4"
-                title="Testimoni 2"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <LazyYoutube videoId="zq-_nBXBXg4" title="Testimoni 2" />
             </div>
           </div>
           <div className="mb-8">
