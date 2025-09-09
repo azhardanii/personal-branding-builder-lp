@@ -2,25 +2,6 @@ import Image from "next/image";
 import { ReactNode } from "react";
 import LazyYoutube from "@/components/LazyYoutube";
 
-const FEATURES = [
-  {
-    title: "1. Finder Personal Identity",
-    desc: "🔍 Bantu kamu nemuin niche paling cocok",
-  },
-  {
-    title: "2. Personal Detector Intelligence",
-    desc: "🧠 Mengenal diri sendiri, kekuatan, dan peluangmu!",
-  },
-  {
-    title: "3. Smart Pillar Generator",
-    desc: "📌 Bantu bikin strategi & pilar biar konten tambah rame",
-  },
-  {
-    title: "4. Content Factory",
-    desc: "🔥 Unlimited konten 9999+",
-  },
-];
-
 const Section = ({
   children,
   className = "",
@@ -29,26 +10,6 @@ const Section = ({
   className?: string;
 }) => (
   <section className={`w-full px-4 py-10 ${className}`}>{children}</section>
-);
-
-const GlowButton = ({ text }: { text: string }) => (
-  <div className="glow-wrapper mb-8">
-    <a
-      href="https://lynk.id/kadafidevayana/e3RyMwz/checkout"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <button className="glow-button text-xl">
-        <span style={{ fontFamily: "Arial, sans-serif" }}>
-          &#x25B6;&#x25B6;
-        </span>{" "}
-        {text}{" "}
-        <span style={{ fontFamily: "Arial, sans-serif" }}>
-          &#x25C0;&#x25C0;
-        </span>
-      </button>
-    </a>
-  </div>
 );
 
 export default function Home() {
