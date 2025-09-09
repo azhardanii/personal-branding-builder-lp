@@ -1,11 +1,10 @@
 import "./globals.css";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
 import type { Metadata } from "next";
 
-const plusJakarta = Plus_Jakarta_Sans({
+const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -33,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Personal Branding Builder",
     images: [
       {
-        url: "https://res.cloudinary.com/dpytrn22z/image/upload/v1745401619/banner-pbb_s5oqiz.png",
+        url: "https://res.cloudinary.com/dpytrn22z/image/upload/v1757232018/Meta_Image_imcz0t.webp",
         width: 1200,
         height: 630,
         alt: "Personal Branding Builder – Toolkit Branding All in One",
@@ -48,7 +47,7 @@ export const metadata: Metadata = {
     description:
       "Toolkit simpel & profesional untuk bangun personal branding lebih efisien.",
     images: [
-      "https://res.cloudinary.com/dpytrn22z/image/upload/v1745401619/banner-pbb_s5oqiz.png",
+      "https://res.cloudinary.com/dpytrn22z/image/upload/v1757232018/Meta_Image_imcz0t.webp",
     ],
     creator: "@kadafidevayana",
   },
@@ -61,7 +60,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
-      <body className={plusJakarta.className}>{children}</body>
+      <body className={`min-h-screen bg-[#000203] relative overflow-x-hidden [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-white/30 hover:[&::-webkit-scrollbar-thumb]:bg-white/50 [&::-webkit-scrollbar-thumb]:rounded-full ${poppins.className}`}>
+        <div className="absolute inset-0 -top-10 h-screen w-full bg-[radial-gradient(circle_at_50%_40%,#00498b,#000203,#000203)]" />
+        <div className="relative z-10 max-w-screen-sm md:max-w-none overflow-x-hidden">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

@@ -43,23 +43,25 @@ export default function LazyYoutube({
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-            <svg
+          <svg
               xmlns="http://www.w3.org/2000/svg"
               width="80"
               height="80"
               viewBox="0 0 100 100"
               className="transition-transform duration-200 ease-in-out hover:scale-110"
             >
-              <circle
-                cx="50"
-                cy="50"
-                r="48"
-                fill="#023274"
-                stroke="white"
-                strokeWidth="4"
+              <rect
+                x="15"
+                y="25"
+                width="70"
+                height="50"
+                rx="12"
+                ry="12"
+                fill="#FF0000"
               />
-              <polygon points="40,30 70,50 40,70" fill="white" />
+              <polygon points="45,38 65,50 45,62" fill="white" />
             </svg>
+
           </div>
         </div>
       )}
