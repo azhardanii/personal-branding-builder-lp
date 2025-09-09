@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 type LazyYoutubeProps = {
   videoId: string;
@@ -37,8 +38,10 @@ export default function LazyYoutube({
         />
       ) : (
         <div className="absolute top-0 left-0 w-full h-full bg-black">
-          <img
+          <Image
             src={thumbnailUrl}
+            width={300}
+            height={100}
             alt={`Thumbnail ${title}`}
             className="w-full h-full object-cover"
           />
