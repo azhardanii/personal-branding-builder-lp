@@ -30,7 +30,7 @@ export default function Home() {
 
       <Section className="text-center">
         <div className="relative w-full -mt-[40%] md:mt-32 lg:-mt-10 mx-auto">
-          <div className="absolute top-[10rem] -left-[14rem] lg:top-[24rem] lg:left-[5rem] w-[350px] md:w-auto h-auto md:bottom-10 md:right-3 -z-10">
+          <div className="absolute top-[10rem] -left-[14rem] md:top-[27rem] lg:top-[24rem] lg:left-[15rem] w-[350px] md:w-auto h-auto md:bottom-10 md:right-3 -z-10">
             <Image
               src="/pbbv2-circleornament.webp"
               alt="Testimoni Pengguna Personal Branding Builder"
@@ -40,7 +40,7 @@ export default function Home() {
               loading="lazy"
             />
           </div>
-          <div className="absolute top-[20rem] -right-[15rem] lg:top-[42rem] lg:right-[4rem] w-[350px] md:w-auto h-auto md:bottom-10 md:right-3 -z-10">
+          <div className="absolute top-[20rem] -right-[15rem] md:top-[49rem] lg:top-[42rem] lg:right-[14rem] w-[350px] md:w-auto h-auto -z-10">
             <Image
               src="/pbbv2-circleornament.webp"
               alt="Testimoni Pengguna Personal Branding Builder"
@@ -151,13 +151,44 @@ export default function Home() {
       </div>
 
       <Section>
-        <div className="max-w-xl mx-auto -mt-5 text-white">
+        <div className="relative max-w-xl mx-auto -mt-5 text-white">
+          <div className="absolute top-[12rem] -left-[13rem] md:-left-[19rem] md:top-[27rem] lg:top-[28rem] lg:-left-[8rem] w-[350px] md:w-auto h-auto md:bottom-10 md:right-3 -z-10">
+            <Image
+              src="/pbbv2-circleornament.webp"
+              alt="Testimoni Pengguna Personal Branding Builder"
+              width={400}
+              height={100}
+              className="opacity-75"
+              loading="lazy"
+            />
+          </div>
+          <div className="absolute top-[37rem] -right-[13rem] md:-right-[19rem] md:top-[68rem] lg:top-[68rem] lg:-right-[8rem] w-[350px] md:w-auto h-auto -z-10">
+            <Image
+              src="/pbbv2-circleornament.webp"
+              alt="Testimoni Pengguna Personal Branding Builder"
+              width={400}
+              height={100}
+              className="opacity-75"
+              loading="lazy"
+            />
+          </div>
+          <div className="absolute top-[52rem] -left-[13rem] md:-left-[19rem] md:top-[93rem] lg:top-[93rem] lg:-left-[8rem] w-[350px] md:w-auto h-auto -z-10">
+            <Image
+              src="/pbbv2-circleornament.webp"
+              alt="Testimoni Pengguna Personal Branding Builder"
+              width={400}
+              height={100}
+              className="opacity-75"
+              loading="lazy"
+            />
+          </div>
+
           <Image
             src="/pbbv2-allfeature.webp"
             alt="Preview Personal Branding Builder"
             width={1000}
             height={1500}
-            className="mx-auto"
+            className="mx-auto -ml-0.5"
             loading="lazy"
           />
         </div>
