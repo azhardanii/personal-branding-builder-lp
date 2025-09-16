@@ -87,7 +87,7 @@ export default function Home() {
           </h2>
           <div className="aspect-video w-full max-w-xl mx-auto mb-10">
             <LazyYoutube
-              videoId="NBh1t1gGID0"
+              videoId="BHZkZjAsjmM"
               title="Video Clip Personal Branding Builder"
               ratio="16:9"
             />

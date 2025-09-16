@@ -14,6 +14,7 @@ export default function LazyYoutube({
   title,
   ratio = "9:16",
 }: LazyYoutubeProps) {
+  const [isClicked, setIsClicked] = useState(false);
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
 
   const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
@@ -25,18 +26,28 @@ export default function LazyYoutube({
     <div
       className="relative w-full h-0 overflow-hidden rounded-xl cursor-pointer"
       style={{ paddingBottom: aspectPadding }}
-      onClick={() => setIsIframeLoaded(true)}
+      onClick={() => setIsClicked(true)}
     >
-      {isIframeLoaded ? (
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
-          title={title}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
+      {/* Saat sudah diklik, tunggu iframe */}
+      {isClicked ? (
+        <>
+          {!isIframeLoaded && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black">
+              <div className="w-12 h-12 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
+            </div>
+          )}
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&modestbranding=1&rel=0`}
+            title={title}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            onLoad={() => setIsIframeLoaded(true)}
+          />
+        </>
       ) : (
+        // Thumbnail + tombol play
         <div className="absolute top-0 left-0 w-full h-full bg-black">
           <Image
             src={thumbnailUrl}
@@ -46,7 +57,7 @@ export default function LazyYoutube({
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-center">
-          <svg
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               width="80"
               height="80"
@@ -54,7 +65,7 @@ export default function LazyYoutube({
               className="transition-transform duration-200 ease-in-out hover:scale-110"
             >
               <rect
-                x="15"
+                x="18"
                 y="25"
                 width="70"
                 height="50"
@@ -64,7 +75,6 @@ export default function LazyYoutube({
               />
               <polygon points="45,38 65,50 45,62" fill="white" />
             </svg>
-
           </div>
         </div>
       )}
