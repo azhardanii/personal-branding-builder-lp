@@ -292,12 +292,12 @@ export default function Home() {
       </div>
 
       <Section>
-        <div className="w-full mx-auto bg-[radial-gradient(circle_at_50%_33%,#00498b,#000203,#000203,#000203)]">
+        <div className="w-full max-w-xl ml-3 md:mx-auto bg-[radial-gradient(circle_at_50%_33%,#00498b,#000203,#000203,#000203)]">
           <a
             href="https://lynk.id/kadafidevayana/3e8we3g142jp/checkout"
             target="_blank"
             rel="noreferrer"
-            className="w-full flex justify-center"
+            className="w-full flex md:ml-7 justify-center"
           >
             <Image
               src="/pbbv2-access.webp"
@@ -317,10 +317,10 @@ export default function Home() {
       </div>
 
       <Section>
-        <div className="max-w-xl mx-auto">
+        <div className="max-w-xl -ml-5 md:mx-auto ">
           <div className="-mr-10 relative">
             <Image
-              src="/pbbv2-letsgo.webp"
+              src="/pbbv2-trigger.webp"
               alt="Testimoni Pengguna Personal Branding Builder"
               width={600}
               height={200}
