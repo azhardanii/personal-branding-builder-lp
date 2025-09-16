@@ -294,7 +294,7 @@ export default function Home() {
       <Section>
         <div className="w-full mx-auto bg-[radial-gradient(circle_at_50%_33%,#00498b,#000203,#000203,#000203)]">
           <a
-            href="https://lynk.id/kadafidevayana/e3RyMwz/checkout"
+            href="https://lynk.id/kadafidevayana/3e8we3g142jp/checkout"
             target="_blank"
             rel="noreferrer"
             className="w-full flex justify-center"
