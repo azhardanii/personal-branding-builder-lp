@@ -300,7 +300,7 @@ export default function Home() {
             className="w-full flex justify-center"
           >
             <Image
-              src="/pbbv2-checkout.webp"
+              src="/pbbv2-access.webp"
               alt="Checkout Personal Branding Builder"
               width={600}
               height={200}
@@ -320,7 +320,7 @@ export default function Home() {
         <div className="max-w-xl mx-auto">
           <div className="-mr-10 relative">
             <Image
-              src="/pbbv2-makesure.webp"
+              src="/pbbv2-letsgo.webp"
               alt="Testimoni Pengguna Personal Branding Builder"
               width={600}
               height={200}
