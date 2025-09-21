@@ -292,15 +292,15 @@ export default function Home() {
       </div>
 
       <Section>
-        <div className="w-full max-w-xl ml-3 md:mx-auto bg-[radial-gradient(circle_at_50%_33%,#00498b,#000203,#000203,#000203)]">
+        <div className="w-full max-w-xl md:mx-auto bg-[radial-gradient(circle_at_50%_33%,#00498b,#000203,#000203,#000203)]">
           <a
             href="https://lynk.id/kadafidevayana/3e8we3g142jp/checkout"
             target="_blank"
             rel="noreferrer"
-            className="w-full flex md:ml-7 justify-center"
+            className="w-full flex justify-center"
           >
             <Image
-              src="/pbbv2-access.webp"
+              src="/pbbv2-accessnow.webp"
               alt="Checkout Personal Branding Builder"
               width={600}
               height={200}
