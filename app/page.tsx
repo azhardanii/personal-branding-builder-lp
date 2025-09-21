@@ -300,7 +300,7 @@ export default function Home() {
             className="w-full flex justify-center"
           >
             <Image
-              src="/pbbv2-accessnow.webp"
+              src="/pbbv2-nowaccess.webp"
               alt="Checkout Personal Branding Builder"
               width={600}
               height={200}
