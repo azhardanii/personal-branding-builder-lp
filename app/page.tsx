@@ -16,11 +16,11 @@ export default function Home() {
   return (
     <main className="w-full">
       <div className="flex justify-center w-full h-screen items-center">
-        <div className="max-w-xl -mt-[20%] md:mt-40 lg:mt-0">
+        <div className="max-w-xl -mt-[20%] md:mt-40 lg:mt-0 ml-5">
           <Image
-            src="/pbbv2-heroimg.webp"
+            src="/pbbv2-welcome.webp"
             alt="Personal Brand Builder"
-            width={450}
+            width={550}
             height={1000}
             className="w-full h-auto"
             priority
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="absolute top-[10rem] -left-[14rem] md:top-[27rem] lg:top-[24rem] lg:left-[15rem] w-[350px] md:w-auto h-auto md:bottom-10 md:right-3 -z-10">
             <Image
               src="/pbbv2-circleornament.webp"
-              alt="Testimoni Pengguna Personal Branding Builder"
+              alt="Ornament shining circle - Personal Branding Builder v2"
               width={400}
               height={100}
               className="opacity-75"
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="absolute top-[20rem] -right-[15rem] md:top-[49rem] lg:top-[42rem] lg:right-[14rem] w-[350px] md:w-auto h-auto -z-10">
             <Image
               src="/pbbv2-circleornament.webp"
-              alt="Testimoni Pengguna Personal Branding Builder"
+              alt="Ornament shining circle - Personal Branding Builder v2"
               width={400}
               height={100}
               className="opacity-75"
@@ -52,16 +52,16 @@ export default function Home() {
           </div>
 
           <Image
-            src="/pbbv2-what.webp"
+            src="/pbbv2-about.webp"
             alt="Preview Personal Branding Builder"
             width={600}
             height={200}
-            className="mx-auto max-w-sm px-16 md:px-0"
+            className="mx-auto max-w-sm px-16 md:px-0 -ml-3 md:ml-auto"
             loading="lazy"
           />
-          <p className="text-xs md:text-base font-medium tracking-wider text-white my-6 md:my-8">
-            Tools dan AI yang bantu kamu personal branding <br />
-            <span className="font-bold text-[#fff500]">gak pake ribet, instan, 5 menit langsung siap.</span>
+          <p className="text-[0.65rem] md:text-base font-medium tracking-wider text-white my-6 md:my-8">
+            Tools terintegrasi dengan AI yang bantu kamu personal <br />
+            branding <span className="font-bold text-[#fff500]">gak pake ribet, instan, 5 menit langsung siap.</span>
           </p>
           <Image
             src="/pbbv2-feature.webp"
@@ -124,7 +124,7 @@ export default function Home() {
       <Section>
         <div className="max-w-xl mx-auto -mt-5 text-center text-white">
           <Image
-            src="/pbbv2-forwho.webp"
+            src="/pbbv2-pbbfor.webp"
             alt="Preview Personal Branding Builder"
             width={500}
             height={1500}
@@ -292,15 +292,15 @@ export default function Home() {
       </div>
 
       <Section>
-        <div className="w-full max-w-xl md:mx-auto bg-[radial-gradient(circle_at_50%_33%,#00498b,#000203,#000203,#000203)]">
+        <div className="w-full max-w-xl md:mx-auto bg-[radial-gradient(circle_at_50%_38%,#00498b,#000203,#000203,#000203)]">
           <a
             href="https://lynk.id/kadafidevayana/3e8we3g142jp/checkout"
             target="_blank"
             rel="noreferrer"
-            className="w-full flex justify-center"
+            className="w-full flex justify-center -mt-16"
           >
             <Image
-              src="/pbbv2-nowaccess.webp"
+              src="/pbbv2-download.webp"
               alt="Checkout Personal Branding Builder"
               width={600}
               height={200}
