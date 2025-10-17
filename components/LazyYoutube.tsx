@@ -17,7 +17,7 @@ export default function LazyYoutube({
   const [isClicked, setIsClicked] = useState(false);
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
 
-  const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+  const thumbnailUrl = "/pbbv2-videothumb.webp";
 
   // Konversi rasio jadi padding bottom (aspect ratio hack)
   const aspectPadding = ratio === "16:9" ? "56.25%" : "177.77%";

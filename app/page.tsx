@@ -15,10 +15,10 @@ const Section = ({
 export default function Home() {
   return (
     <main className="w-full">
-      <div className="flex justify-center w-full h-screen items-center">
-        <div className="max-w-xl -mt-[20%] md:mt-40 lg:mt-0 ml-5">
+      <div className="flex justify-center w-full h-screen items-center bg-[linear-gradient(to_right,#004b8d,#0061c6,#ffffff)]">
+        <div className="max-w-xl -mt-[20%] md:mt-40 lg:mt-0 mr-3 md:mr-0 md:ml-5">
           <Image
-            src="/pbbv2-welcome.webp"
+            src="/pbbv2-hero.webp"
             alt="Personal Brand Builder"
             width={550}
             height={1000}
@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       <Section className="text-center">
-        <div className="relative w-full -mt-[40%] md:mt-32 lg:-mt-10 mx-auto">
+        <div className="relative w-full mt-0 mx-auto">
           <div className="absolute top-[10rem] -left-[14rem] md:top-[27rem] lg:top-[24rem] lg:left-[15rem] w-[350px] md:w-auto h-auto md:bottom-10 md:right-3 -z-10">
             <Image
               src="/pbbv2-circleornament.webp"
@@ -51,20 +51,22 @@ export default function Home() {
             />
           </div>
 
-          <Image
-            src="/pbbv2-about.webp"
-            alt="Preview Personal Branding Builder"
-            width={600}
-            height={200}
-            className="mx-auto max-w-sm px-16 md:px-0 -ml-3 md:ml-auto"
-            loading="lazy"
-          />
-          <p className="text-[0.65rem] md:text-base font-medium tracking-wider text-white my-6 md:my-8">
-            Tools terintegrasi dengan AI yang bantu kamu personal <br />
-            branding <span className="font-bold text-[#fff500]">gak pake ribet, instan, 5 menit langsung siap.</span>
+          <div className="ml-1 md:ml-10">
+            <Image
+              src="/pbbv2-logo.webp"
+              alt="Preview Personal Branding Builder"
+              width={600}
+              height={200}
+              className="max-w-sm px-14 md:px-0 -ml-1 md:mx-auto"
+              loading="lazy"
+            />
+          </div>
+          <p className="text-xs md:text-base font-normal tracking-wider text-white my-6 md:my-8">
+            Tools yang bantu kamu personal branding <br />
+            <span className="font-extrabold text-[#fff500]">gak pake ribet</span>, <span className="font-extrabold text-[#fff500]">instan</span>, <span className="font-extrabold text-[#fff500]">5 menit langsung siap</span>.
           </p>
           <Image
-            src="/pbbv2-feature.webp"
+            src="/pbbv2-benefit.webp"
             alt="Preview Personal Branding Builder"
             width={600}
             height={200}
@@ -82,8 +84,8 @@ export default function Home() {
 
       <Section>
         <div className="max-w-xl mx-auto text-center">
-          <h2 className="text-xl md:text-2xl text-white mb-6 tracking-wider">
-            TOOLS INI <span className="font-bold">GA BOLEH DIPAKAI <br /> SEMBARANG ORANG‼️‼️</span>
+          <h2 className="text-xl md:text-3xl text-white mb-6 tracking-wider">
+            TOOLS INI <span className="font-extrabold text-[#ff0000]">GA BOLEH DIPAKAI <br /> SEMBARANG ORANG‼️‼️</span>
           </h2>
           <div className="aspect-video w-full max-w-xl mx-auto mb-10">
             <LazyYoutube
@@ -92,9 +94,9 @@ export default function Home() {
               ratio="16:9"
             />
           </div>
-          <div className="ml-3 md:ml-5">
+          <div className="ml-2 md:ml-5">
             <Image
-              src="/pbbv2-quick.webp"
+              src="/pbbv2-warning.webp"
               alt="Preview Personal Branding Builder"
               width={600}
               height={200}
@@ -291,32 +293,51 @@ export default function Home() {
         </div>
       </div>
 
-      <Section>
-        <div className="w-full max-w-xl md:mx-auto bg-[radial-gradient(circle_at_50%_38%,#00498b,#000203,#000203,#000203)]">
-          <a
-            href="https://lynk.id/kadafidevayana/3e8we3g142jp/checkout"
-            target="_blank"
-            rel="noreferrer"
-            className="w-full flex justify-center -mt-16"
-          >
-            <Image
-              src="/pbbv2-download.webp"
-              alt="Checkout Personal Branding Builder"
-              width={600}
-              height={200}
-              loading="lazy"
-            />
-          </a>
+      <Section className="bg-[radial-gradient(circle_at_50%_50%,rgba(0,73,139,0.8),rgba(0,0,0))] md:bg-[radial-gradient(circle_at_50%_50%,rgba(0,73,139,0.7),rgba(0,73,139,0.7),rgba(0,73,139,0.7),rgba(0,0,0),rgba(0,0,0),rgba(0,0,0),rgba(0,0,0))]">
+        <div className="w-full max-w-3xl md:mx-auto md:h-screen flex items-center">
+          <div className="flex justify-center mx-auto gap-5 md:gap-0 flex-col md:flex-row md:ml-6">
+            <a
+              href="https://lynk.id/kadafidevayana/3e8we3g142jp/checkout"
+              target="_blank"
+              rel="noreferrer"
+              className="w-full pl-3.5 md:pl-0"
+            >
+              <Image
+                src="/pbbv2-pro.webp"
+                alt="Personal Branding Builder Pro Version"
+                width={600}
+                height={200}
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://lynk.id/kadafidevayana/e3RyMwz/checkout"
+              target="_blank"
+              rel="noreferrer"
+              className="w-full px-4 md:px-5"
+            >
+              <Image
+                src="/pbbv2-basic.webp"
+                alt="Personal Branding Builder Basic Version"
+                width={600}
+                height={200}
+                loading="lazy"
+              />
+            </a>
+          </div>
         </div>
       </Section>
-
-      <div className="w-full py-6 text-center">
+      <div className="w-full text-center font-extrabold text-xl italic text-white mt-3 mb-10 md:-mt-16 lg:-mt-20 md:mb-20 tracking-wider">
+        <p className="text-[#ff0000] text-5xl">(98/100)</p>
+        <p className="pt-2">SISA 2 KUOTA UNTUK <br /> <span className="text-3xl">HARGA DISKON!</span></p>
+      </div>
+      {/* <div className="w-full py-6 text-center">
         <div className="max-w-xs md:max-w-sm mx-auto">
           <hr className="border-0 h-[3px] md:h-1 bg-gradient-to-r from-white/0 via-[#005dd6] via-50% to-white/0" />
         </div>
-      </div>
+      </div> */}
 
-      <Section>
+      {/* <Section>
         <div className="max-w-xl -ml-5 md:mx-auto ">
           <div className="-mr-10 relative">
             <Image
@@ -337,7 +358,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </Section>
+      </Section> */}
 
       <div className="w-full py-6 text-center">
         <div className="max-w-xl mx-auto relative">
