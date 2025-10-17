@@ -15,20 +15,20 @@ const Section = ({
 export default function Home() {
   return (
     <main className="w-full">
-      <div className="flex justify-center w-full h-screen items-center bg-[linear-gradient(to_right,#004b8d,#0061c6,#ffffff)]">
-        <div className="max-w-xl -mt-[20%] md:mt-40 lg:mt-0 mr-3 md:mr-0 md:ml-5">
+      <div className="flex justify-center w-full h-auto pt-20 pb-4 md:pt-0 md:pb-0 md:h-screen items-center bg-[linear-gradient(to_right,#004b8d,#0061c6,#ffffff)]">
+        <div className="max-w-xl -mt-[20%] md:mt-0 mr-3 md:mr-0 md:ml-5">
           <Image
             src="/pbbv2-hero.webp"
             alt="Personal Brand Builder"
             width={550}
             height={1000}
-            className="w-full h-auto"
+            className="w-full h-auto md:max-w-lg lg:max-w-full"
             priority
           />
         </div>
       </div>
 
-      <Section className="text-center">
+      <div className="w-full px-4 text-center pt-5 md:pt-10 pb-10">
         <div className="relative w-full mt-0 mx-auto">
           <div className="absolute top-[10rem] -left-[14rem] md:top-[27rem] lg:top-[24rem] lg:left-[15rem] w-[350px] md:w-auto h-auto md:bottom-10 md:right-3 -z-10">
             <Image
@@ -74,7 +74,7 @@ export default function Home() {
             loading="lazy"
           />
         </div>
-      </Section>
+      </div>
 
       <div className="w-full py-6 text-center">
         <div className="max-w-xs md:max-w-sm mx-auto">
