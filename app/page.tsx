@@ -92,6 +92,7 @@ export default function Home() {
               videoId="BHZkZjAsjmM"
               title="Video Clip Personal Branding Builder"
               ratio="16:9"
+              thumbnailUrl="/pbbv2-videothumb.webp"
             />
           </div>
           <div className="ml-2 md:ml-5">
